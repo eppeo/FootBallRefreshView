@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		173FE6441D4F8841005FFF8B /* FootBallViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173FE6431D4F8841005FFF8B /* FootBallViewHeader.swift */; };
+		17BC926C1D54DBB9003E2261 /* FootBallCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BC926B1D54DBB9003E2261 /* FootBallCircleView.swift */; };
 		17EB55041D4F841F00D1C24A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EB55031D4F841F00D1C24A /* AppDelegate.swift */; };
 		17EB55061D4F841F00D1C24A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EB55051D4F841F00D1C24A /* ViewController.swift */; };
 		17EB55091D4F841F00D1C24A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EB55071D4F841F00D1C24A /* Main.storyboard */; };
 		17EB550B1D4F841F00D1C24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17EB550A1D4F841F00D1C24A /* Assets.xcassets */; };
 		17EB550E1D4F841F00D1C24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EB550C1D4F841F00D1C24A /* LaunchScreen.storyboard */; };
+		17EB55161D4F848100D1C24A /* FootBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EB55151D4F848100D1C24A /* FootBallView.swift */; };
+		17EB55181D4F865900D1C24A /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EB55171D4F865900D1C24A /* NSTimerEx.swift */; };
+		72AE60FAEEE4E5D52C494527 /* Pods_FootBallRefreshView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0015BC7CB3FAD1A06FF8C6FE /* Pods_FootBallRefreshView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0015BC7CB3FAD1A06FF8C6FE /* Pods_FootBallRefreshView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FootBallRefreshView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C2F20926B593ADC1BA4CD5 /* Pods-FootBallRefreshView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootBallRefreshView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FootBallRefreshView/Pods-FootBallRefreshView.debug.xcconfig"; sourceTree = "<group>"; };
+		173FE6431D4F8841005FFF8B /* FootBallViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FootBallViewHeader.swift; sourceTree = "<group>"; };
+		17BC926B1D54DBB9003E2261 /* FootBallCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FootBallCircleView.swift; sourceTree = "<group>"; };
 		17EB55001D4F841F00D1C24A /* FootBallRefreshView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootBallRefreshView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17EB55031D4F841F00D1C24A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17EB55051D4F841F00D1C24A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		17EB550A1D4F841F00D1C24A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17EB550D1D4F841F00D1C24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17EB550F1D4F841F00D1C24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17EB55151D4F848100D1C24A /* FootBallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FootBallView.swift; sourceTree = "<group>"; };
+		17EB55171D4F865900D1C24A /* NSTimerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimerEx.swift; sourceTree = "<group>"; };
+		B418CA7F761CDC351EB2B43A /* Pods-FootBallRefreshView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootBallRefreshView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FootBallRefreshView/Pods-FootBallRefreshView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72AE60FAEEE4E5D52C494527 /* Pods_FootBallRefreshView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				17EB55021D4F841F00D1C24A /* FootBallRefreshView */,
 				17EB55011D4F841F00D1C24A /* Products */,
+				1C265206B4E1A9267C5C2AC9 /* Pods */,
+				9CC926C9271B0C7B99448FF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +71,33 @@
 			children = (
 				17EB55031D4F841F00D1C24A /* AppDelegate.swift */,
 				17EB55051D4F841F00D1C24A /* ViewController.swift */,
+				17EB55171D4F865900D1C24A /* NSTimerEx.swift */,
+				17EB55151D4F848100D1C24A /* FootBallView.swift */,
+				17BC926B1D54DBB9003E2261 /* FootBallCircleView.swift */,
+				173FE6431D4F8841005FFF8B /* FootBallViewHeader.swift */,
 				17EB55071D4F841F00D1C24A /* Main.storyboard */,
 				17EB550A1D4F841F00D1C24A /* Assets.xcassets */,
 				17EB550C1D4F841F00D1C24A /* LaunchScreen.storyboard */,
 				17EB550F1D4F841F00D1C24A /* Info.plist */,
 			);
 			path = FootBallRefreshView;
+			sourceTree = "<group>";
+		};
+		1C265206B4E1A9267C5C2AC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10C2F20926B593ADC1BA4CD5 /* Pods-FootBallRefreshView.debug.xcconfig */,
+				B418CA7F761CDC351EB2B43A /* Pods-FootBallRefreshView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CC926C9271B0C7B99448FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0015BC7CB3FAD1A06FF8C6FE /* Pods_FootBallRefreshView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17EB55121D4F841F00D1C24A /* Build configuration list for PBXNativeTarget "FootBallRefreshView" */;
 			buildPhases = (
+				1D8E36969C0669D5B1AEA10C /* [CP] Check Pods Manifest.lock */,
 				17EB54FC1D4F841F00D1C24A /* Sources */,
 				17EB54FD1D4F841F00D1C24A /* Frameworks */,
 				17EB54FE1D4F841F00D1C24A /* Resources */,
+				8EFC9C99D65D1B3C1428D693 /* [CP] Embed Pods Frameworks */,
+				DA37B7A061812DCCBAE009C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +169,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D8E36969C0669D5B1AEA10C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EFC9C99D65D1B3C1428D693 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FootBallRefreshView/Pods-FootBallRefreshView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA37B7A061812DCCBAE009C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FootBallRefreshView/Pods-FootBallRefreshView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17EB54FC1D4F841F00D1C24A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17EB55161D4F848100D1C24A /* FootBallView.swift in Sources */,
+				17EB55181D4F865900D1C24A /* NSTimerEx.swift in Sources */,
+				173FE6441D4F8841005FFF8B /* FootBallViewHeader.swift in Sources */,
 				17EB55061D4F841F00D1C24A /* ViewController.swift in Sources */,
+				17BC926C1D54DBB9003E2261 /* FootBallCircleView.swift in Sources */,
 				17EB55041D4F841F00D1C24A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +338,7 @@
 		};
 		17EB55131D4F841F00D1C24A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C2F20926B593ADC1BA4CD5 /* Pods-FootBallRefreshView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FootBallRefreshView/Info.plist;
@@ -258,6 +350,7 @@
 		};
 		17EB55141D4F841F00D1C24A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B418CA7F761CDC351EB2B43A /* Pods-FootBallRefreshView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FootBallRefreshView/Info.plist;
@@ -286,6 +379,7 @@
 				17EB55141D4F841F00D1C24A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
